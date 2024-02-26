@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: white;
+  }
+  
+  .logo-container {
+    flex: 1;
+    
+  }
+  
+  .logo {
+    height: 70px; /* Adjust as needed */
+  }
+  
+  .search-container {
+    flex: 1;
+    padding-left: 60%;
+  }
+  
+  .search-bar {
+    width: 150px; /* Adjust as needed */
+  padding: 8px;
+  margin-right: 0%;
+  border-color: black;
+  color: black;
+  
+  }
+
+  .search-info {
+    color: black;
+    padding-left: 8px;
+  }
+  
+  
+  .logout-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .logout-link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .logout-link:hover {
+    text-decoration: underline;
+  }
+
+  .ok-button {
+    background-color: lightblue;
+    color: white;
+    padding: 8px 12px;
+    margin-left: 5px; 
+    /* Adjust as needed */
+  }
+  
