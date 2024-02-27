@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
     background-color: white;
     color: white;
+    width: 99%;
+    height: 3em;
   }
   
   .logo-container {
@@ -18,21 +19,24 @@
   
   .search-container {
     flex: 1;
-    padding-left: 60%;
+    /* padding-left: 60%; */
+    float: left;
   }
   
   .search-bar {
     width: 150px; /* Adjust as needed */
-  padding: 8px;
-  margin-right: 0%;
-  border-color: black;
-  color: black;
+    padding: 8px;
+    margin-right: 0%;
+    border-color: black;
+    color: black;
+    height: 0.3em;
   
   }
 
   .search-info {
     color: black;
     padding-left: 8px;
+    float:left;
   }
   
   
@@ -41,6 +45,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    float:left;
+    padding-left: 3px;
+    color: black;
+    font-size: smaller;
   }
   
   .logout-link {
@@ -57,6 +65,13 @@
     color: white;
     padding: 8px 12px;
     margin-left: 5px; 
-    /* Adjust as needed */
+    float: left;
+    height: 0.8em;
+    width: 1.1em;
+    font-size: x-small;
   }
-  
+
+.parentDiv {
+  float: right;
+  width: 40%;
+}

@@ -15,7 +15,7 @@ const Sidebar = () => {
                 <li><span className="triangle"></span><a href="#">Create Request</a></li>
                 <li><a href="#">Review Request</a></li>
                 <li><a href="#">Overview</a></li>
-                <li><a href="#">History of authorization</a></li>
+                <li><a href="#">History of authorizations</a></li>
                 <li><span className="triangle"></span><a href="#">Information on</a></li>
                 <li><span className="triangle"></span><a href="#">Adminstration</a></li>
                 <li><span className="triangle"></span><a href="#">Resource admin</a></li>
