@@ -1,6 +1,4 @@
-.App {
-  /* text-align: center; */
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -39,7 +37,23 @@
 
 .AppBody{
   padding: 0.7em;
+  
 }
-.ContentDiv{
+/* .ContentDiv{
   height: 70%;
+  width: 80%;
+} */
+
+/* .ContentDiv {
+  height: 70%;
+  width: 80%;
+  margin-left: 363px;
+  margin-top: -464px;
+} */
+
+.ContentDiv {
+  height: 70%;
+  width: 80%;
+  margin-left: 363px;
+  margin-top: -517px;
 }

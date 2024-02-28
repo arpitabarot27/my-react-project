@@ -21,6 +21,7 @@
     flex: 1;
     /* padding-left: 60%; */
     float: left;
+    margin-right: 0%;
   }
   
   .search-bar {
@@ -71,7 +72,12 @@
     font-size: x-small;
   }
 
-.parentDiv {
+/* .parentDiv {
   float: right;
   width: 40%;
+} */
+.parentDiv {
+  float: right;
+  width: 31%;
+  
 }
