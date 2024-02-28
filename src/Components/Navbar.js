@@ -2,7 +2,12 @@ import React from 'react';
 import logo from '../assets/logo.jpeg'
 import './Navbar.css'; // Import CSS for styling
 
+
+
 const Navbar = () => {
+
+
+
     return (
       <div className="navbar">
         <div className="logo-container">

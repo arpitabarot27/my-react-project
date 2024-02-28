@@ -6,7 +6,7 @@ import logo1 from '../images/toolbar_print_aktiv.gif'
 import logo2 from '../images/toolbar_help_aktiv.gif'
 import logo3 from '../images/application-title.gif'
 
-const MiddleContainer = ()=> {
+const MiddleContainer = (props)=> {
     return(
         <div className='middleContainer-info'>
             <div class="GroupBoxGrey">
@@ -20,7 +20,7 @@ const MiddleContainer = ()=> {
         </div>
             <div className='waContentTitleBar'>
             <span>BBS Home</span>
-            <span>User : Arpita Barot</span>
+            <span>User : {props.userName}</span>
         </div>
         <div className='welcomebbs1-table'>
             <table className='welcomebbs-table' width='99%' cellPadding='0' cellSpacing='0'>

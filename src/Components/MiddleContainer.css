@@ -100,7 +100,7 @@ h5{
     margin-top: -31.7em;
   } */
 
-  .GroupBoxGrey {
+  /* .GroupBoxGrey {
     background-color: #eeeeee;
     border-color: #999999;
     border-width: 0px 1px 1px 0px;
@@ -114,5 +114,31 @@ h5{
     margin-left: 0px;
     padding-left: 9px;
     padding-right: 10px;
-    margin: auto;
-}
+    margin: auto; */
+
+    /* .GroupBoxGrey {
+        background-color: #eeeeee;
+        border-color: #999999;
+        border-width: 0px 1px 1px 0px;
+        border-style: solid;
+        height: 49px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 10px;
+        width: 77%;
+    } */
+
+    .GroupBoxGrey {
+        background-color: #eeeeee;
+        border-color: #999999;
+        border-width: 0px 1px 1px 0px;
+        border-style: solid;
+        height: 49px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 10px;
+        padding-left: 9px;
+        width: 118%;
+    }

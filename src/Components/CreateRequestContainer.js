@@ -5,10 +5,12 @@ import logo1 from '../images/toolbar_print_aktiv.gif'
 import logo2 from '../images/toolbar_help_aktiv.gif'
 import logo3 from '../images/application-title.gif'
 
-const CreateReqContainer = ()=> {
+
+const CreateReqContainer = (props)=> {
     return(
         
         <div className='middleContainer-info'>
+            
             <div class="GroupBoxGrey">
             <span>
               <img src={logo3} alt="Logo"/>
@@ -20,7 +22,7 @@ const CreateReqContainer = ()=> {
         </div>
             <div className='waContentTitleBar'>
             <span>Request for individuals</span>
-            <span>User : Arpita Barot</span>
+            <span>User : {props.userName}</span>
         </div><table className= "waSearchTable" border="0" cellSpacing="0" cellPadding="22px">
                 <tbody>
                     <tr>
@@ -31,7 +33,7 @@ const CreateReqContainer = ()=> {
                                         <td className="waTableLeftPadding" nowrap>
                                             Request for:
                                             <br/>
-                                            <input type="text" readOnly="true" className="waEntryField"  value="ARPITA BAROT"/>&nbsp;
+                                            <input type="text" readOnly="true" className="waEntryField"  value={props.userName}/>&nbsp;
                                         </td>
                                     </tr>
                                     <tr>
@@ -73,7 +75,11 @@ const CreateReqContainer = ()=> {
                         </td>
                     </tr>
                 </tbody>
-            </table></div>
+            </table>
+            </div>
+          
         )
     }
+
     export default CreateReqContainer;
+    
